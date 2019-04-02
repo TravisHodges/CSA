@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class TestScores {
+
+    public static void main(String[] args){
+        ArrayList<String> scores = new ArrayList<String>();
+
+        Scanner input = new Scanner(System.in);
+        String testScores;
+
+        System.out.println("Enter test scores below ");
+
+        for(int j = 0; j < 10; ++j){
+            System.out.println("Enter Score : ");
+            testScores = input.next();
+            scores.add(testScores);
+        }
+
+    }
+}
